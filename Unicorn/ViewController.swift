@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let me = "Jenny"
+        print("\(loveAgain(me)) \(unicorn())")  // Jenny♥️ 🦄 🦄 🦄 🦄
     }
     
     // We provided the code for you!
